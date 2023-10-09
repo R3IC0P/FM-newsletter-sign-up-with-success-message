@@ -81,6 +81,7 @@ img {
   color: var(--clr-grey);
 }
 
+.newsletter__email-label input[type='email']:hover,
 .newsletter__email-label input[type='email']:focus {
   outline: 1px solid var(--clr-grey-dark);
 }
