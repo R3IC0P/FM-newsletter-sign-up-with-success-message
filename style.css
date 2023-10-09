@@ -94,16 +94,20 @@ img {
   font-weight: 700;
   color: var(--clr-white);
   background-color: var(--clr-grey-dark);
+
+  transition: box-shadow 250ms;
 }
 
 .newsletter__button:hover,
 .newsletter__button:focus {
   cursor: pointer;
+  outline: none;
   background: linear-gradient(
     90deg,
     hsl(346, 100%, 66%) 0%,
     hsl(14, 100%, 62%) 100%
   );
+  box-shadow: 0 5px 25px hsl(346, 100%, 66%);
 }
 
 .attribution {
