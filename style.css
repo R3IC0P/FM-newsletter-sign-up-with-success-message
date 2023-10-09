@@ -85,7 +85,7 @@ img {
   outline: 1px solid var(--clr-grey-dark);
 }
 
-.newsletter__submit-btn {
+.newsletter__button {
   padding: 16px;
   border: none;
   border-radius: 8px;
@@ -95,8 +95,8 @@ img {
   background-color: var(--clr-grey-dark);
 }
 
-.newsletter__submit-btn:hover,
-.newsletter__submit-btn:focus {
+.newsletter__button:hover,
+.newsletter__button:focus {
   cursor: pointer;
   background: linear-gradient(
     90deg,
