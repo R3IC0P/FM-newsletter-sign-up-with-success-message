@@ -152,4 +152,15 @@ img {
   .newsletter__heading {
     font-size: 3.5rem;
   }
+
+  .newsletter.submitted {
+    grid-template-columns: none;
+    gap: 24px;
+    width: 450px;
+    padding: 48px;
+  }
+
+  .newsletter.submitted img {
+    width: 48px;
+  }
 }
